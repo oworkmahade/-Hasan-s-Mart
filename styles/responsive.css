@@ -1,6 +1,32 @@
 @media screen and (max-width: 576px) {
+  body {
+    width: 100%;
+  }
+  .navbar > .container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .nav-menu .container {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .nav-menu ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+
+  .navbar > .container {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
 }

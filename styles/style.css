@@ -8,4 +8,82 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.primary-color {
+  background-color: #e9e9e9;
+}
+.margin-top {
+  margin-top: 100px;
+}
+
+.navbar {
+  border: 1px solid gray;
+}
+
+.navbar > .container {
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 20px;
+}
+
+.nav-logo .container {
+  /* border: 1px solid tomato; */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.logo-img img {
+  width: 50px;
+  height: auto;
+  object-fit: cover;
+}
+
+.nav-logo h3 {
+  font-size: 1.5rem;
+  color: #1b95c4;
+}
+
+.nav-logo span {
+  font-size: 1.5rem;
+  color: #f8631d;
+}
+
+.nav-menu .container {
+  /* border: 1px solid blueviolet; */
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-menu ul {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-menu ul li {
+  list-style: none;
+}
+.nav-menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.login-btn {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f8631d;
+}
+.login-btn h3 {
+  font-weight: 800;
 }
