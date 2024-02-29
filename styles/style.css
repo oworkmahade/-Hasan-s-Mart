@@ -121,6 +121,7 @@ body {
 
 .banner-bag {
   border: 1px solid red;
+  position: relative;
 }
 
 .banner-bag img {
@@ -160,6 +161,19 @@ body {
   border: 1px solid #f8631d;
   border-radius: 5px;
   color: black;
+}
+.banner-discount {
+  border: 2px solid red;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border-radius: 100px;
+  text-align: center;
+  position: absolute;
+  bottom: 250px;
+  left: 350px;
+  background-color: white;
+  opacity: 50%;
 }
 
 /* banner styles ends here */
