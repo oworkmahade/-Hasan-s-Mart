@@ -8,9 +8,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .primary-color {
@@ -20,6 +17,7 @@ body {
   margin-top: 100px;
 }
 
+/* navbar styles starts here */
 .navbar {
   border: 1px solid gray;
 }
@@ -30,6 +28,9 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 50px 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav-logo .container {
@@ -87,3 +88,78 @@ body {
 .login-btn h3 {
   font-weight: 800;
 }
+/* navbar styles ends header */
+
+/* banner styles start here  */
+.banner {
+  border: 1px solid gray;
+  margin-top: 10px;
+  /* background-color: #e9e9e9; */
+}
+
+.banner > .container {
+  border: 1px solid red;
+  background-color: #e9e9e9;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.banner > .container > div {
+  width: 50%;
+}
+
+.banner-content {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner-bag {
+  border: 1px solid red;
+}
+
+.banner-bag img {
+  min-width: 500px;
+  max-height: 400px;
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+.banner-title {
+  font-size: 3rem;
+  color: #f8631d;
+}
+
+.banner-tag {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.social-container {
+  margin-top: 10px;
+}
+.social-container i {
+  border: 1px solid #1b95c4;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.banner-btn {
+  margin-top: 10px;
+}
+
+.btn-see-more,
+.btn-shop-now {
+  padding: 10px 20px;
+  border: 1px solid #f8631d;
+  border-radius: 5px;
+  color: black;
+}
+
+/* banner styles ends here */

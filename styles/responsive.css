@@ -22,15 +22,31 @@
   body {
     width: 100%;
   }
-
   .navbar > .container {
     flex-direction: column;
     gap: 10px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  .nav-menu .container {
+    width: 100%;
+    gap: 20px;
+  }
+  .nav-menu ul {
+    width: 100%;
+    gap: 20px;
+  }
 }
 @media screen and (min-width: 992px) and (max-width: 1024px) {
+  .nav-menu .container {
+    width: 100%;
+    gap: 20px;
+  }
+  .nav-menu ul {
+    width: 100%;
+    gap: 20px;
+  }
 }
+
 @media screen and (min-width: 1024px) {
 }
