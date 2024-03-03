@@ -17,7 +17,110 @@
     gap: 10px;
     align-items: center;
   }
+
+  /* banner responsive */
+  .banner > .container > div {
+    width: 100%;
+  }
+
+  .banner .container {
+    flex-direction: column;
+  }
+
+  .banner-content {
+    order: 2;
+  }
+  .banner-bag {
+    order: 1;
+  }
+
+  .banner-title {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .banner-tag {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .banner-bag img {
+    /* margin-top: 20px; */
+    width: 100%;
+    min-width: 0px;
+  }
+  .banner-discount {
+    bottom: 60%;
+    left: 60%;
+  }
+
+  .banner-title {
+    margin-top: 10px;
+  }
+
+  .banner-btn {
+    margin-bottom: 50px;
+  }
+
+  /* products styles */
+  .products .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* footer upper responsive starts */
+
+  .footer {
+    width: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+  .footer-upper {
+    flex-direction: column;
+    padding: 50px 10px;
+    gap: 50px;
+    align-items: center;
+  }
+
+  .upper-footer > div {
+    /* border: 1px solid gray; */
+    width: 100%;
+  }
+
+  .social-img {
+    justify-content: space-between;
+    gap: 5px;
+  }
+
+  .sec-4 {
+    align-items: center;
+  }
+
+  .sec-4 .footer-btn {
+    height: 30px;
+    padding: 10px 65px;
+    font-size: 1rem;
+  }
+  .sec-4 .footer-input {
+    height: 30px;
+  }
+
+  .sec-4 input,
+  button {
+    /* width: 50%; */
+  }
+
+  /* footer lower responsive starts */
+
+  .lower-anchor {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-lower {
+    flex-direction: column;
+    padding: 20px 10px;
+    gap: 20px;
+    align-items: center;
+  }
 }
+
 @media screen and (min-width: 576px) and (max-width: 768px) {
   body {
     width: 100%;
@@ -25,6 +128,39 @@
   .navbar > .container {
     flex-direction: column;
     gap: 10px;
+  }
+
+  /* banner responsive */
+  .banner > .container > div {
+    width: 100%;
+  }
+
+  .banner .container {
+    flex-direction: column;
+  }
+
+  .banner-title {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .banner-tag {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .banner-bag img {
+    margin-top: 20px;
+    min-width: 0px;
+    margin: 20px 130px;
+  }
+  .banner-discount {
+    bottom: 60%;
+    left: 50%;
+  }
+  .banner-title {
+    margin-top: 30px;
+  }
+  .products .container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -45,6 +181,16 @@
   .nav-menu ul {
     width: 100%;
     gap: 20px;
+  }
+
+  .banner-bag img {
+    margin-top: 20px;
+    width: 100%;
+    min-width: 0px;
+  }
+  .banner-discount {
+    bottom: 150px;
+    left: 180px;
   }
 }
 
